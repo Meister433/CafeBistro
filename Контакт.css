@@ -15,6 +15,7 @@ box-sizing:inherit;
 }
 a{
 text-decoration: none;
+color:white;
 }
 #Header{
 max-width:1920px;
@@ -175,65 +176,79 @@ margin:auto;
 }
 .text{
 color:white;
-font-size:360%;
+font-size:200%;
 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 margin-top:5%;
 margin-left:11%;
+}
+#review_block1{
+max-width:950px;
+height:300px;
+background-color:#ff6633;
+margin:auto;
+}
+#spacebetween2{
+max-width:1920px;
+height:50px;
+margin:auto;
+}
+#review_block2{
+max-width:950px;
+height:500px;
+background-color:#ff6633;
+margin:auto;
+}
+.text2{
+    color:white;
+    font-size:200%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left:7%;
+    }
+#ta{
+    width:90%;
+    height:400px;
+    background-color: #ff6633;
+    border:2px solid black;
+    color:white;
+    margin-left:5%;
+    margin-top:5%;
+    }
+#buttonblock{
+max-width:400px;
+height:100px;
+background-color: aquamarine;
+margin:auto;
+margin-top:2%;
+}
+.button {
+    border: none;
+    color: #ff3300;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size:50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .button2 {
+    background-color: #ff3300;
+    color: white;
+    border: 2px solid #ff3300;
+    width:400px;
+    height:100px;
+    margin:auto;
+  }
+  
+  .button2:hover {
+    background-color: #ff3300;
+    color: yellow;
 }
 #spacebetween{
 max-width:1920px;
 height:300px;
 margin:auto;
-}
-#menublock{
-max-width:950px;
-height:500px;
-margin:auto;
-}
-#menublocks_title1{
-width:47%;
-height:19%;
-background-color: #ff3300;
-float:left;
-}
-#menublocks_title2{
-width:47%;
-height:19%;
-background-color: #ff3300;
-margin-left:6%;
-float:left;
-}
-#menublocks1{
-width:47%;
-height:81%;
-background-color:#ff6633;
-float:left;
-}
-#menublocks2{
-width:47%;
-height:81%;
-background-color:#ff6633 ;
-float:left;
-margin-left:6%;
-}
-.newofftertitle{
-color:white;
-font-size:300%;
-font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-text-align: center;
-margin-top:2%;
-}
-#solanka_img{
-max-width:76%;
-background-repeat:no-repeat;
-margin-left:12%;
-margin-top:3%;
-height:auto;
-}
-#location_img{
-max-width:100%;
-height:100%;
-background-repeat:no-repeat;
 }
 #podval{
 max-width:1920px;
