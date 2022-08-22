@@ -19,6 +19,7 @@
     }
     #Header{
     max-width:1920px;
+    min-width:1900px;
     height:350px;
     margin:auto;
     }
@@ -145,6 +146,7 @@
     }
     #pictureblock{
     max-width:1920px;
+    min-width:1900px;
     height:500px;
     background-color:#ff6633;
     margin:auto;
@@ -163,8 +165,15 @@
     }
     #Title_block{
         max-width:1920px;
+        min-width:1900px;
         height:170px;
         margin:auto;
+        }
+        #location_pictureblock_main{
+            max-width:1920px;
+            min-width:1900px;
+            margin:auto;
+            height:700px;
         }
         #location_pictureblock{
         max-width:950px;
@@ -183,6 +192,12 @@
         text-align: center;
         margin-top:6%;
         }
+        #Title_info_main{
+            max-width:1920px;
+            min-width:1900px;
+            margin:auto;
+            height:350px;
+        }
         #Title_info{
         max-width:950px;
         height:350px;
@@ -198,6 +213,7 @@
             }
     #podval{
         max-width:1920px;
+        min-width:1900px;
         height:350px;
         background-color: #ff6633;
         margin:auto;
@@ -209,13 +225,13 @@
         margin-left:5%;
         float:left;
         }
-        #podvaltext1{
+        .podvaltext1{
         color:white;
         font-size:250%;
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         margin-top:1%;
         }
-        #podvaltext2{
+        .podvaltext2{
         color:white;
         font-size:250%;
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
